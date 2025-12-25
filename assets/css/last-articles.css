@@ -1,0 +1,159 @@
+/* ============================
+   LAST ARTICLES SECTION
+============================ */
+
+#last-articles {
+  padding: 90px 0;
+  background: #f7f9fb;
+}
+
+#last-articles .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+#last-articles .section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#last-articles .section-header h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #0f4c81;
+  margin-bottom: 15px;
+}
+
+#last-articles .section-header p {
+  font-size: 1.05rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Grid */
+#last-articles .articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+/* Card */
+#last-articles .article-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#last-articles .article-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+#last-articles .article-image img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Content */
+#last-articles .article-content {
+  padding: 25px 22px 30px;
+}
+
+#last-articles .article-category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0f4c81;
+  background: rgba(15, 76, 129, 0.1);
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+#last-articles .article-content h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+#last-articles .article-content p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+/* Link */
+#last-articles .article-link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0f4c81;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+#last-articles .article-link:hover {
+  color: #09375e;
+}
+
+/* CTA */
+#last-articles .section-cta {
+  text-align: center;
+  margin-top: 55px;
+}
+
+#last-articles .btn-primary {
+  display: inline-block;
+  background: #0f4c81;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+#last-articles .btn-primary:hover {
+  background: #09375e;
+  transform: translateY(-2px);
+}
+
+/* ============================
+   RESPONSIVE
+============================ */
+
+@media (max-width: 992px) {
+  #last-articles .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  #last-articles {
+    padding: 70px 0;
+  }
+
+  #last-articles .section-header h2 {
+    font-size: 2rem;
+  }
+
+  #last-articles .articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #last-articles .article-image img {
+    height: 190px;
+  }
+}
