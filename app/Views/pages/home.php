@@ -346,3 +346,4 @@
       <img src="/sahp/assets/img/mascotte.png" alt="Mascotte SAHP" />
     </div>
 </section>
+

@@ -1,8 +1,29 @@
 <?php
+declare(strict_types=1);
 
-require_once __DIR__ . '/../app/Core/Router.php';
+require_once __DIR__ . '/../app/config/config.php';
 
-$url = $_GET['url'] ?? '';
+// URL
+$request = trim(
+  str_replace(['/sahp', '/public'], '', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)),
+  '/'
+);
 
-$router = new Router();
-$router->dispatch($url);
+// ROUTES
+$routes = [
+  ''          => 'home.php',
+  'a-propos'  => 'about.php',
+];
+
+// ROUTING
+if (array_key_exists($request, $routes)) {
+  $view  = VIEWS_PATH . '/pages/' . $routes[$request];
+  $title = ucfirst(str_replace('-', ' ', $request)) . ' | SAHP';
+} else {
+  http_response_code(404);
+  $view  = VIEWS_PATH . '/pages/404.php';
+  $title = 'Page introuvable | SAHP';
+}
+
+// LAYOUT UNIQUE
+require VIEWS_PATH . '/layouts/main.php';
