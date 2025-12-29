@@ -36,8 +36,8 @@
       <!-- MENU -->
       <div class="nav-menu">
         <nav>
-          <a href="#">Accueil</a>
-          <a href="#">Qui sommes-nous</a>
+          <a href="/">Accueil</a>
+          <a href="/a-propos">Qui sommes-nous</a>
 
           <!-- DROPDOWN -->
           <div class="nav-dropdown">
@@ -46,14 +46,14 @@
               <span class="chevron">▾</span>
             </a>
             <div class="dropdown-menu">
-              <a href="#">Débouchage des canalisations</a>
-              <a href="#">Curage des canalisations</a>
-              <a href="#">Pompage des canalisations</a>
-              <a href="#">Inspection vidéo</a>
+              <a href="/debouchage">Débouchage des canalisations</a>
+              <a href="/curage">Curage des canalisations</a>
+              <a href="/pompage">Pompage des canalisations</a>
+              <a href="/inspection">Inspection vidéo</a>
             </div>
           </div>
 
-          <a href="#">Parole de Pros</a>
+          <a href="">Parole de Pros</a>
           <a href="#">Contact</a>
         </nav>
 
