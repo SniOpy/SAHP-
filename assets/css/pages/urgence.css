@@ -1,0 +1,137 @@
+/* =========================
+   URGENCE ASSAINISSEMENT - SAHP
+========================= */
+
+.urgence-page {
+  padding: 90px 20px;
+  background: #f2f4f7;
+}
+
+.urgence-container {
+  max-width: 950px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 70px;
+  border-radius: 14px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+  color: #1f1f1f;
+}
+
+/* TITRES */
+
+.urgence-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #c62828;
+}
+
+.urgence-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  margin: 50px 0 20px;
+  color: #0f4c81;
+}
+
+.urgence-container h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  margin: 30px 0 12px;
+  color: #2f6fa3;
+}
+
+/* TEXTE */
+
+.urgence-intro {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+.urgence-container p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+/* ALERTE */
+
+.urgence-alert {
+  background: #fdecea;
+  border-left: 5px solid #c62828;
+  padding: 20px 25px;
+  margin: 35px 0;
+  font-weight: 600;
+  color: #8b1a1a;
+}
+
+/* LISTES */
+
+.urgence-list {
+  margin: 15px 0 25px 20px;
+}
+
+.urgence-list li {
+  margin-bottom: 8px;
+}
+
+/* NOTE */
+
+.urgence-note {
+  background: #eef3f7;
+  border-left: 4px solid #0f4c81;
+  padding: 16px 20px;
+  font-style: italic;
+  margin: 30px 0;
+}
+
+/* ÉTAPES */
+
+.urgence-steps {
+  margin-left: 20px;
+}
+
+.urgence-steps li {
+  margin-bottom: 8px;
+}
+
+/* CTA */
+
+.urgence-cta {
+  margin-top: 60px;
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #c62828, #d84343);
+  border-radius: 14px;
+}
+
+.urgence-cta p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.btn-urgence {
+  background: #ffffff;
+  color: #c62828;
+  padding: 16px 36px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .urgence-container {
+    padding: 40px 25px;
+  }
+
+  .urgence-container h1 {
+    font-size: 2rem;
+  }
+}

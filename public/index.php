@@ -20,6 +20,9 @@ $routes = [
   'curage'  => 'curage.php',
   'pompage'  => 'pompage.php',
   'inspection'  => 'inspection.php',
+  'debouchage'  => 'debouchage.php',
+  'maintenance-pro'  => 'maintenance-pro.php',
+  'urgence'  => 'urgence.php',
 ];
 
 // ROUTING
