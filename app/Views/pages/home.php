@@ -23,7 +23,7 @@
   </div>
 
   <div class="hero-visual">
-    <img src="/sahp/assets/img/intervention.jpg" alt="Mascotte SAHP" />
+    <img src="<?= BASE_URL ?>/assets/img/intervention.jpg" alt="Mascotte SAHP" />
   </div>
 </section>
 
@@ -52,13 +52,12 @@
 
       <div class="about-cta">
         <a class="btn-rounded btn-primary">En savoir plus...</a>
-        <!-- <a class="btn-rounded btn-primary btn-about">Nous contacter</a> -->
       </div>
     </div>
 
     <div class="about-visual">
       <div class="about-image-wrapper">
-        <img src="/sahp/assets/img/hero.jpg" alt="Intervention assainissement SAHP" />
+        <img src="<?= BASE_URL ?>/assets/img/hero.jpg" alt="Intervention assainissement SAHP" />
       </div>
     </div>
   </div>
@@ -75,56 +74,56 @@
     <div class="services-grid">
       <article class="service-card">
         <div class="service-icon">
-          <img src="/sahp/assets/img/icons/curage.jpg" alt="Curage haute pression" />
+          <img src="<?= BASE_URL ?>/assets/img/icons/curage.jpg" alt="Curage haute pression" />
         </div>
         <h3>Curage haute pression</h3>
         <p>Nettoyage en profondeur des canalisations pour éliminer les dépôts.</p>
-        <a href="#">En savoir plus</a>
+        <a href="<?= BASE_URL ?>/curage">En savoir plus</a>
       </article>
 
       <article class="service-card">
         <div class="service-icon">
-          <img src="/sahp/assets/img/icons/video.jpg" alt="Inspection vidéo" />
+          <img src="<?= BASE_URL ?>/assets/img/icons/video.jpg" alt="Inspection vidéo" />
         </div>
         <h3>Inspection vidéo</h3>
         <p>Diagnostic précis grâce à des caméras professionnelles.</p>
-        <a href="#">En savoir plus</a>
+        <a href="<?= BASE_URL ?>/inspection">En savoir plus</a>
       </article>
 
       <article class="service-card">
         <div class="service-icon">
-          <img src="/sahp/assets/img/icons/pompage.jpg" alt="Pompage et vidange" style="width: 197px;"/>
+          <img src="<?= BASE_URL ?>/assets/img/icons/pompage.jpg" alt="Pompage et vidange" style="width: 197px;"/>
         </div>
         <h3>Pompage & vidange</h3>
         <p>Vidange de fosses, bacs et réseaux encombrés.</p>
-        <a href="#">En savoir plus</a>
+        <a href="<?= BASE_URL ?>/pompage">En savoir plus</a>
       </article>
 
       <article class="service-card">
         <div class="service-icon">
-          <img src="/sahp/assets/img/icons/detartrage.jpg" alt="Débouchage canalisations" />
+          <img src="<?= BASE_URL ?>/assets/img/icons/detartrage.jpg" alt="Débouchage canalisations" />
         </div>
         <h3>Débouchage & Détartrage</h3>
         <p>Intervention rapide pour éliminer les bouchons.</p>
-        <a href="#">En savoir plus</a>
+        <a href="<?= BASE_URL ?>/debouchage">En savoir plus</a>
       </article>
 
       <article class="service-card">
         <div class="service-icon">
-          <img src="/sahp/assets/img/icons/maintenance.jpg" alt="Maintenance préventive" />
+          <img src="<?= BASE_URL ?>/assets/img/icons/maintenance.jpg" alt="Maintenance préventive" />
         </div>
         <h3>Maintenance & Entretien</h3>
         <p>Entretien préventif pour éviter pannes et sinistres.</p>
-        <a href="#">En savoir plus</a>
+        <a href="<?= BASE_URL ?>/maintenance-pro">En savoir plus</a>
       </article>
 
       <article class="service-card">
         <div class="service-icon">
-          <img src="/sahp/assets/img/icons/urgence.jpg" alt="Urgence assainissement 24/7" />
+          <img src="<?= BASE_URL ?>/assets/img/icons/urgence.jpg" alt="Urgence assainissement 24/7" />
         </div>
         <h3>Urgence 24/7</h3>
         <p>Service d’intervention immédiate, jour et nuit.</p>
-        <a href="#">En savoir plus</a>
+        <a href="<?= BASE_URL ?>/urgence">En savoir plus</a>
       </article>
     </div>
   </div>
@@ -132,7 +131,7 @@
 
 <div class="reviews-separator">
   <img
-    src="/sahp/assets/img/sahp.png"
+    src="<?= BASE_URL ?>/assets/img/sahp.png"
     alt="SAHP"
     class="separator-logo" />
 </div>
@@ -154,7 +153,7 @@
       <!-- Article 1 -->
       <article class="article-card">
         <div class="article-image">
-          <img src="/sahp/assets/img/blog/debouchage-canalisation.png" alt="Débouchage de canalisation">
+          <img src="<?= BASE_URL ?>/assets/img/blog/debouchage-canalisation.png" alt="Débouchage de canalisation">
         </div>
         <div class="article-content">
           <span class="article-category">Débouchage</span>
@@ -172,7 +171,7 @@
       <!-- Article 2 -->
       <article class="article-card">
         <div class="article-image">
-          <img src="/sahp/assets/img/blog/curage.png" alt="Curage de canalisation">
+          <img src="<?= BASE_URL ?>/assets/img/blog/curage.png" alt="Curage de canalisation">
         </div>
         <div class="article-content">
           <span class="article-category">Curage</span>
@@ -190,7 +189,7 @@
       <!-- Article 3 -->
       <article class="article-card">
         <div class="article-image">
-          <img src="/sahp/assets/img/blog/urgence.png" alt="Urgence assainissement">
+          <img src="<?= BASE_URL ?>/assets/img/blog/urgence.png" alt="Urgence assainissement">
         </div>
         <div class="article-content">
           <span class="article-category">Assainissement</span>
@@ -208,7 +207,7 @@
     </div>
 
     <div class="section-cta">
-      <a href="/blog" class="btn-primary">
+      <a href="<?= BASE_URL ?>/paroles-de-pros" class="btn-primary">
         Voir tous les articles
       </a>
     </div>
@@ -230,7 +229,7 @@
         <div class="stars-google">★★★★★</div>
       </div>
       <div class="score-right">
-        <img src="/sahp/assets/img/brand/google.svg" alt="Google brand" />
+        <img src="<?= BASE_URL ?>/assets/img/brand/google.svg" alt="Google brand" />
       </div>
     </div>
 
@@ -241,7 +240,7 @@
         <p>
           Un grand merci à l’équipe, du manager au technicien sur place, ils sont intervenus en urgence dans la foulée( la journée) pour déboucher mon assainissement, le technicien connaissait très bien son sujet aucune hésitation, c’est plié en 15 minutes … bravo à vous et merci encore …</p>
         <div class="review-author">
-          <img src="/sahp/assets/img/icons/avatar-homme.png" alt="Client SAHP" />
+          <img src="<?= BASE_URL ?>/assets/img/icons/avatar-homme.png" alt="Client SAHP" />
           <div>
             <strong>Mehand Baleh</strong>
             <span>2 mois</span>
@@ -256,7 +255,7 @@
           Intervention rapide et soignée, pas de mauvaise surprise au moment de la facture car le prix vous est communiqué avant intervention.
           Le gérant est disponible et prend son temps pour répondre à vos demandes. </p>
         <div class="review-author">
-          <img src="/sahp/assets/img/icons/avatar-femme.png" alt="Client SAHP" />
+          <img src="<?= BASE_URL ?>/assets/img/icons/avatar-femme.png" alt="Client SAHP" />
           <div>
             <strong>Irène FILIPE</strong>
             <span>1 an</span>
@@ -270,7 +269,7 @@
           Merci beaucoup à Mourad pour son intervention ! Un grand merci également à l’équipe pour avoir pris en charge une urgence : une canalisation d’évier totalement bouchée. Travail impeccable, soigné et réalisé avec le sourire 👍
         </p>
         <div class="review-author">
-          <img src="/sahp/assets/img/icons/avatar-homme.png" alt="Client SAHP" />
+          <img src="<?= BASE_URL ?>/assets/img/icons/avatar-homme.png" alt="Client SAHP" />
           <div>
             <strong>Enzo VMB</strong>
             <span>4 mois</span>
@@ -291,17 +290,17 @@
 
   <!-- VERSION DESKTOP (STATIQUE) -->
   <div class="partners-logos card-glass-reviews-brand">
-    <img src="/sahp/assets/img/brand/BOUYGUES.png" alt="Bouygues" />
-    <img src="/sahp/assets/img/brand/CROUS.png" alt="Crous de Paris" />
-    <img src="/sahp/assets/img/brand/ENGIE.png" alt="Engie" />
-    <img src="/sahp/assets/img/brand/ISSY.png" alt="Mairie d'Issy-les-Moulineaux" />
-    <img src="/sahp/assets/img/brand/YERRES.png" alt="Ville de Yerres" />
-    <img src="/sahp/assets/img/brand/MONGERON.png" alt="Ville de Montgeron" />
-    <img src="/sahp/assets/img/brand/PANTIN.png" alt="Mairie de Pantin" />
-    <img src="/sahp/assets/img/brand/OPH.png" alt="OPH" />
-    <img src="/sahp/assets/img/brand/VSG.png" alt="Mairie de Villeneuve-Saint-Georges" />
-    <img src="/sahp/assets/img/brand/EMMAUS.png" alt="Emmaüs" />
-    <img src="/sahp/assets/img/brand/SPIE.png" alt="SPIE" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/BOUYGUES.png" alt="Bouygues" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/CROUS.png" alt="Crous de Paris" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/ENGIE.png" alt="Engie" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/ISSY.png" alt="Mairie d'Issy-les-Moulineaux" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/YERRES.png" alt="Ville de Yerres" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/MONGERON.png" alt="Ville de Montgeron" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/PANTIN.png" alt="Mairie de Pantin" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/OPH.png" alt="OPH" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/VSG.png" alt="Mairie de Villeneuve-Saint-Georges" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/EMMAUS.png" alt="Emmaüs" />
+    <img src="<?= BASE_URL ?>/assets/img/brand/SPIE.png" alt="SPIE" />
   </div>
 
   <!-- VERSION MOBILE / TABLETTE (SLIDER) -->
@@ -309,30 +308,30 @@
     <div class="partners-track">
 
       <!-- LISTE 1 -->
-      <img src="/sahp/assets/img/brand/BOUYGUES.png" alt="Bouygues" />
-      <img src="/sahp/assets/img/brand/CROUS.png" alt="Crous de Paris" />
-      <img src="/sahp/assets/img/brand/ENGIE.png" alt="Engie" />
-      <img src="/sahp/assets/img/brand/ISSY.png" alt="Mairie d'Issy-les-Moulineaux" />
-      <img src="/sahp/assets/img/brand/YERRES.png" alt="Ville de Yerres" />
-      <img src="/sahp/assets/img/brand/MONGERON.png" alt="Ville de Montgeron" />
-      <img src="/sahp/assets/img/brand/PANTIN.png" alt="Mairie de Pantin" />
-      <img src="/sahp/assets/img/brand/OPH.png" alt="OPH" />
-      <img src="/sahp/assets/img/brand/VSG.png" alt="Mairie de Villeneuve-Saint-Georges" />
-      <img src="/sahp/assets/img/brand/EMMAUS.png" alt="Emmaüs" />
-      <img src="/sahp/assets/img/brand/SPIE.png" alt="SPIE" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/BOUYGUES.png" alt="Bouygues" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/CROUS.png" alt="Crous de Paris" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/ENGIE.png" alt="Engie" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/ISSY.png" alt="Mairie d'Issy-les-Moulineaux" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/YERRES.png" alt="Ville de Yerres" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/MONGERON.png" alt="Ville de Montgeron" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/PANTIN.png" alt="Mairie de Pantin" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/OPH.png" alt="OPH" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/VSG.png" alt="Mairie de Villeneuve-Saint-Georges" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/EMMAUS.png" alt="Emmaüs" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/SPIE.png" alt="SPIE" />
 
       <!-- LISTE 2 (DUPLICATION POUR LOOP) -->
-      <img src="/sahp/assets/img/brand/BOUYGUES.png" alt="Bouygues" />
-      <img src="/sahp/assets/img/brand/CROUS.png" alt="Crous de Paris" />
-      <img src="/sahp/assets/img/brand/ENGIE.png" alt="Engie" />
-      <img src="/sahp/assets/img/brand/ISSY.png" alt="Mairie d'Issy-les-Moulineaux" />
-      <img src="/sahp/assets/img/brand/YERRES.png" alt="Ville de Yerres" />
-      <img src="/sahp/assets/img/brand/MONGERON.png" alt="Ville de Montgeron" />
-      <img src="/sahp/assets/img/brand/PANTIN.png" alt="Mairie de Pantin" />
-      <img src="/sahp/assets/img/brand/OPH.png" alt="OPH" />
-      <img src="/sahp/assets/img/brand/VSG.png" alt="Mairie de Villeneuve-Saint-Georges" />
-      <img src="/sahp/assets/img/brand/EMMAUS.png" alt="Emmaüs" />
-      <img src="/sahp/assets/img/brand/SPIE.png" alt="SPIE" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/BOUYGUES.png" alt="Bouygues" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/CROUS.png" alt="Crous de Paris" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/ENGIE.png" alt="Engie" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/ISSY.png" alt="Mairie d'Issy-les-Moulineaux" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/YERRES.png" alt="Ville de Yerres" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/MONGERON.png" alt="Ville de Montgeron" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/PANTIN.png" alt="Mairie de Pantin" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/OPH.png" alt="OPH" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/VSG.png" alt="Mairie de Villeneuve-Saint-Georges" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/EMMAUS.png" alt="Emmaüs" />
+      <img src="<?= BASE_URL ?>/assets/img/brand/SPIE.png" alt="SPIE" />
 
     </div>
   </div>
@@ -343,7 +342,7 @@
 
     <!-- MASCOTTE -->
     <div class="reviews-mascotte">
-      <img src="/sahp/assets/img/mascotte.png" alt="Mascotte SAHP" />
+      <img src="<?= BASE_URL ?>/assets/img/mascotte.png" alt="Mascotte SAHP" />
     </div>
 </section>
 

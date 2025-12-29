@@ -13,7 +13,7 @@
     <!-- IMAGE INTERVENTION -->
     <div class="debouchage-intervention">
       <img
-        src="/sahp/assets/img/debouchage.jpg"
+        src="<?= BASE_URL ?>/assets/img/debouchage.jpg"
         alt="Canalisation bouchée avant intervention SAHP">
       <p class="debouchage-caption">
         Canalisation obstruée : une intervention professionnelle évite
@@ -80,7 +80,7 @@
       <p>
         Une canalisation bouchée ? Une urgence ?
       </p>
-      <a href="/contact" class="btn-primary">
+      <a href="<?= BASE_URL ?>/contact" class="btn-primary">
         Demander une intervention
       </a>
     </div>

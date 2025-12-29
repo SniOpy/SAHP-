@@ -11,12 +11,12 @@
 
     <div class="illustration-container">
       <img
-        src="/sahp/assets/img/404.png"
+        src="<?= BASE_URL ?>/assets/img/404.png"
         alt="Mascotte SAHP devant un tuyau cassé avec des points d'interrogation"
       />
     </div>
 
-    <a href="/sahp/" class="btn-home">Retour à l'accueil</a>
+    <a href="<?= BASE_URL ?>/" class="btn-home">Retour à l'accueil</a>
 
     <div class="divider"></div>
 
@@ -28,7 +28,7 @@
 
         <div class="contact-line">
           <span class="icon">☎</span>
-          <strong>01 XX XX XX XX</strong>
+          <strong>01 76 24 28 84</strong>
         </div>
 
         <div class="contact-line">
@@ -49,7 +49,7 @@
         <!-- Remplace par ta carte (image) OU une iframe google maps -->
         <div class="zone-map">
           <img
-            src="/sahp/assets/img/intervention.png"
+            src="<?= BASE_URL ?>/assets/img/intervention.png"
             alt="Carte zones d’intervention SAHP"
           />
         </div>

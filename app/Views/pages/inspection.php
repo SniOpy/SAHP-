@@ -13,7 +13,7 @@
     <!-- IMAGE INTERVENTION -->
     <div class="inspection-intervention">
       <img
-        src="/sahp/assets/img/inspection-video.jpg"
+        src="<?= BASE_URL ?>/assets/img/inspection-video.jpg"
         alt="Inspection vidéo de canalisation par caméra SAHP">
       <p class="inspection-caption">
         Inspection télévisée des canalisations avec caméra haute définition
@@ -96,7 +96,7 @@
       <p>
         Besoin d’un diagnostic précis ou d’une recherche de réseau ?
       </p>
-      <a href="/contact" class="btn-primary">
+      <a href="<?= BASE_URL ?>/contact" class="btn-primary">
         Demander un devis gratuit
       </a>
     </div>

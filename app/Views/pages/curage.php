@@ -15,7 +15,7 @@
 
     <div class="curage-compare">
       <img
-        src="/sahp/assets/img/curage.jpg"
+        src="<?= BASE_URL ?>/assets/img/curage.jpg"
         alt="Canalisation avant et après un curage haute pression">
       <p class="curage-caption">
         Exemple réel de canalisation avant et après un curage haute pression :
@@ -56,7 +56,7 @@
 
     <div class="curage-intervention">
       <img
-        src="/sahp/assets/img/intervention-curage.jpg"
+        src="<?= BASE_URL ?>/assets/img/intervention-curage.jpg"
         alt="Camion hydrocureur SAHP en intervention de curage">
       <p class="curage-caption">
         Intervention réalisée par nos équipes avec camion hydrocureur
@@ -99,7 +99,7 @@
       <p>
         Besoin d’un curage ou d’un diagnostic ?
       </p>
-      <a href="/contact" class="btn-primary">
+      <a href="<?= BASE_URL ?>/contact" class="btn-primary">
         Demander un devis gratuit
       </a>
     </div>

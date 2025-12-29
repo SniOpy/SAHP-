@@ -5,7 +5,7 @@
   </h1>
 
   <div class="sahp-image-wrapper">
-    <img src="/sahp/assets/img/equipe.jpg" alt="Équipe SAHP Assainissement">
+    <img src="<?= BASE_URL ?>/assets/img/equipe.jpg" alt="Équipe SAHP Assainissement">
   </div>
 
   <div class="sahp-text">
@@ -36,7 +36,7 @@
 
     <div class="feature">
       <div class="icon-circle">
-       <img src="/sahp/assets/img/about/VALIDE.png" alt=""> 
+       <img src="<?= BASE_URL ?>/assets/img/about/VALIDE.png" alt=""> 
       </div>
       <h3>Sécurité</h3>
       <p>
@@ -47,7 +47,7 @@
 
     <div class="feature">
       <div class="icon-circle">
-        <img src="/sahp/assets/img/about/HORLOGE.png" alt="">
+        <img src="<?= BASE_URL ?>/assets/img/about/HORLOGE.png" alt="">
       </div>
       <h3>Rapidité</h3>
       <p>
@@ -58,7 +58,7 @@
 
     <div class="feature">
       <div class="icon-circle">
-        <img src="/sahp/assets/img/about/light.png" alt="" >
+        <img src="<?= BASE_URL ?>/assets/img/about/light.png" alt="" >
       </div>
       <h3>Expertise</h3>
       <p>

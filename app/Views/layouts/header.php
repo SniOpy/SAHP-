@@ -11,15 +11,15 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/sahp/assets/css/style.css" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css" />
   </head>
   <body>
 
-   <header class="navbar card-glass">
+   <header class="navbar ">
       <div class="nav-left">
         <div class="logo">
           <img
-            src="/sahp/assets/img/sahp.png"
+            src="<?= BASE_URL ?>/assets/img/sahp.png"
             alt="logo sahp - assainissement et plomberie"
             style="width: 250px"
           />
@@ -36,8 +36,8 @@
       <!-- MENU -->
       <div class="nav-menu">
         <nav>
-          <a href="/">Accueil</a>
-          <a href="/a-propos">Qui sommes-nous</a>
+          <a href="<?= BASE_URL ?>/">Accueil</a>
+          <a href="<?= BASE_URL ?>/a-propos">Qui sommes-nous</a>
 
           <!-- DROPDOWN -->
           <div class="nav-dropdown">
@@ -46,19 +46,19 @@
               <span class="chevron">▾</span>
             </a>
             <div class="dropdown-menu">
-              <a href="/debouchage">Débouchage des canalisations</a>
-              <a href="/curage">Curage des canalisations</a>
-              <a href="/pompage">Pompage des canalisations</a>
-              <a href="/inspection">Inspection vidéo</a>
+              <a href="<?= BASE_URL ?>/debouchage">Débouchage des canalisations</a>
+              <a href="<?= BASE_URL ?>/curage">Curage des canalisations</a>
+              <a href="<?= BASE_URL ?>/pompage">Pompage des canalisations</a>
+              <a href="<?= BASE_URL ?>/inspection">Inspection vidéo</a>
             </div>
           </div>
 
-          <a href="">Parole de Pros</a>
-          <a href="#">Contact</a>
+          <a href="<?= BASE_URL ?>/parole-de-pros">Parole de Pros</a>
+          <a href="<?= BASE_URL ?>/contact">Contact</a>
         </nav>
 
         <div class="actions">
-          <a href="https://wa.me/33612345678" class="btn-rounded btn-urgent"> <img src="/sahp/assets/img/brand/whatsapp.png" alt=""> Urgence 24/7</a>
+          <a href="https://wa.me/33612345678" class="btn-rounded btn-urgent"> <img src="<?= BASE_URL ?>/assets/img/brand/whatsapp.png" alt=""> Urgence 24/7</a>
         </div>
       </div>
     </header>

@@ -13,7 +13,7 @@
     <!-- IMAGE INTERVENTION -->
     <div class="pompage-intervention">
       <img
-        src="/sahp/assets/img/pompage.jpg"
+        src="<?= BASE_URL ?>/assets/img/pompage.jpg"
         alt="Intervention de pompage et vidange par camion hydrocureur SAHP">
       <p class="pompage-caption">
         Intervention de pompage et vidange réalisée par les équipes SAHP
@@ -95,7 +95,7 @@
       <p>
         Besoin d’un pompage ou d’une vidange ?
       </p>
-      <a href="/contact" class="btn-primary">
+      <a href="<?= BASE_URL ?>/contact" class="btn-primary">
         Demander un devis gratuit
       </a>
     </div>

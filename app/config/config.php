@@ -1,15 +1,33 @@
 <?php
 declare(strict_types=1);
 
-// ================================
-// PATHS GLOBAUX
-// ================================
+/*
+|--------------------------------------------------------------------------
+| ENVIRONNEMENT
+|--------------------------------------------------------------------------
+| true  = développement (local)
+| false = production
+*/
+define('APP_ENV', true); // ⚠️ à passer à false en prod
 
-// /sahp
+/*
+|--------------------------------------------------------------------------
+| BASE URL
+|--------------------------------------------------------------------------
+*/
+if (APP_ENV === true) {
+    // WAMP / localhost
+    define('BASE_URL', '/sahp/public');
+} else {
+    // PROD (racine du domaine)
+    define('BASE_URL', '');
+}
+
+/*
+|--------------------------------------------------------------------------
+| PATHS
+|--------------------------------------------------------------------------
+*/
 define('ROOT_PATH', dirname(__DIR__, 2));
-
-// /sahp/app
 define('APP_PATH', ROOT_PATH . '/app');
-
-// /sahp/app/Views
 define('VIEWS_PATH', APP_PATH . '/Views');
