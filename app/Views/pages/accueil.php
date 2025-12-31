@@ -1,3 +1,4 @@
+<?php $title = "Accueil"; ?>
 <section class="hero">
   <div class="hero-content">
     <h1>
@@ -51,7 +52,7 @@
       </ul>
 
       <div class="about-cta">
-        <a class="btn-rounded btn-primary">En savoir plus...</a>
+        <a class="btn-rounded btn-primary" href="<?= BASE_URL ?>/a-propos">En savoir plus...</a>
       </div>
     </div>
 
@@ -207,7 +208,7 @@
     </div>
 
     <div class="section-cta">
-      <a href="<?= BASE_URL ?>/paroles-de-pros" class="btn-primary">
+      <a href="<?= BASE_URL ?>/paroles-de-pro" class="btn-primary">
         Voir tous les articles
       </a>
     </div>
@@ -280,7 +281,7 @@
     <div>
     </div>
     <!-- CTA -->
-    <a href="#" class="reviews-cta">Lire tous nos avis sur Google</a>
+    <a target="_blank" href="https://www.google.com/search?client=firefox-b-d&hs=J1PU&sca_esv=6dfd04640b18e1d6&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E31I1vvQnQypGQcnex3_0SWHe8dkK7ZUrrXrils2k5oCpV91Oi-0jEnXnDk9k2sgOF7OyncDeRti45xY5E7kff9sKIE-3PYlRC8yePuevbVp-Nk-Sm6jFI2r21L2Cm4H5I5pEg0%3D&q=D%C3%A9bouchage+Canalisation+Paris+IDF+-+SAHP+Avis&sa=X&ved=2ahUKEwiSjbaS3eqRAxWxWUEAHcErCMcQ0bkNegQIQRAE&biw=1920&bih=947&dpr=1" class="reviews-cta">Lire tous nos avis sur Google</a>
 
     <!-- PARTENAIRES -->
     <h3 class="partners-title">Ils nous confient leurs réseaux</h3>

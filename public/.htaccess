@@ -1,5 +1,12 @@
-RewriteEngine On
+ RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+# # Si le fichier existe (css, js, img), on le sert directement
+ RewriteCond %{REQUEST_FILENAME} -f
+ RewriteRule ^ - [L]
+
+# # Si le dossier existe, on le sert directement
+ RewriteCond %{REQUEST_FILENAME} -d
+ RewriteRule ^ - [L]
+
+# # Sinon, tout passe par index.php
+ RewriteRule ^ index.php [L]

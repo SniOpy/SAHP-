@@ -11,10 +11,10 @@ $request = trim(
 
 // ROUTES
 $routes = [
-  ''          => 'home.php',
+  ''          => 'accueil.php',
   'a-propos'  => 'about.php',
   'mentions-legales'  => 'mentions.php',
-  'conditions-generales-prestations'  => 'cgps.php',
+  'conditions-generales-prestations-services'  => 'cgps.php',
   'politique-confidentialite'  => 'pc.php',
   'plan-site'  => 'plansite.php',
   'curage'  => 'curage.php',
@@ -31,7 +31,7 @@ $routes = [
 // ROUTING
 if (array_key_exists($request, $routes)) {
   $view  = VIEWS_PATH . '/pages/' . $routes[$request];
-  $title = ucfirst(str_replace('-', ' ', $request)) . ' | SAHP';
+  $title = $request === "" ? "Accueil | SAHP Assainissement" : ucfirst(str_replace('-', ' ', $request)) . ' | SAHP Assainissement';
 } else {
   http_response_code(404);
   $view  = VIEWS_PATH . '/pages/404.php';

@@ -1,14 +1,14 @@
 <section id="parole-de-pro">
 
   <h2 class="parole-title">
-    Parole de Pro : Les conseils de l’expert
+    Les conseils de l’expert
   </h2>
 
   <!-- BLOC CONSEIL MIS EN AVANT (INCHANGÉ) -->
   <div class="parole-featured">
 
     <div class="featured-text">
-      <span class="featured-label">Proc en direct</span>
+      <span class="featured-label">PAROLES DE PRO</span>
 
       <h3>Comment éviter le bouchon&nbsp;?</h3>
 
