@@ -17,8 +17,8 @@
     </ul>
 
     <div class="hero-cta">
-      <button class="btn-rounded btn-primary">Obtenir un devis rapide</button>
-      <button class="btn-rounded">Appeler un technicien</button>
+      <a class="btn-rounded btn-primary" href="<?= BASE_URL ?>/devis">Obtenir un devis rapide</a>
+      <a class="btn-rounded" href="tel:+33176242884">Appeler un technicien</a>
     </div>
   </div>
 
