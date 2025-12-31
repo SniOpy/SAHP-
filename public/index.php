@@ -25,6 +25,7 @@ $routes = [
   'urgence'  => 'urgence.php',
   'paroles-de-pro'  => 'paroles-de-pro.php',
   'contact'  => 'contact.php',
+  'devis'  => 'devis.php',
 ];
 
 // ROUTING

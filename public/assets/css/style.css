@@ -1,12 +1,13 @@
 /* Home page CSS */
 
-@import url(header.css);
-@import url(hero.css);
-@import url(about.css);
-@import url(services.css);
-@import url(reviews.css);
-@import url(last-articles.css);
-@import url(footer.css);
+@import url(./homepage/header.css);
+@import url(./homepage/hero.css);
+@import url(./homepage/about.css);
+@import url(./homepage/services.css);
+@import url(./homepage/reviews.css);
+@import url(./homepage/last-articles.css);
+@import url(./homepage/footer.css);
+@import url(./homepage/blog.css);
 
 /* pages CSS */
 @import url(./pages/about.css);
@@ -22,6 +23,7 @@
 @import url(./pages/404.css);
 @import url(./pages/paroles-de-pro.css);
 @import url(./pages/contact.css);
+@import url(./pages/devis.css);
 
 
 
