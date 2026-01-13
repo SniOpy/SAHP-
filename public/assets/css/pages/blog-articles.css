@@ -1,0 +1,343 @@
+/* =====================================================
+   PAROLES DE PRO — ARTICLE PAGE (SAHP)
+===================================================== */
+
+.pp-article{
+  padding: 0;
+  margin-bottom: 80px;
+  background: linear-gradient(135deg, #5fbfa0, #4a8fcf);
+}
+
+/* HERO */
+.pp-hero{
+  padding: 40px 6% 22px;
+}
+
+.pp-hero-inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 22px;
+  padding: 22px 24px;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+  backdrop-filter: blur(8px);
+}
+
+.pp-hero-title h1{
+  margin: 0 0 6px;
+  font-size: 34px;
+  line-height: 1.15;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.pp-hero-subtitle{
+  margin: 0;
+  color: rgba(255,255,255,0.92);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pp-hero-bubble{
+  margin-top: 16px;
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+  padding: 14px 16px;
+  color: #1f1f1f;
+  font-size: 15px;
+  line-height: 1.6;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* GRID */
+.pp-wrapper{
+  max-width: 1200px;
+  margin: 18px auto 0;
+  padding: 0 6% 70px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
+}
+
+/* CONTENT CARD */
+.pp-content{
+  background: rgba(255,255,255,0.92);
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+}
+
+/* COVER */
+.pp-cover{
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.pp-cover img{
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+/* BODY TYPO */
+.pp-body{
+  color: #1f1f1f;
+  line-height: 1.85;
+  font-size: 16px;
+}
+
+.pp-body h2{
+  margin: 22px 0 10px;
+  font-size: 22px;
+  color: #0f4c81;
+  font-weight: 800;
+}
+
+.pp-body h3{
+  margin: 14px 0 10px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #0b3b63;
+}
+
+.pp-body p{
+  margin: 0 0 14px;
+}
+
+.pp-body ul,
+.pp-body ol{
+  margin: 0 0 16px 20px;
+}
+
+.pp-body li{
+  margin: 8px 0;
+}
+
+/* TIP BOX (L'ASTUCE DU TECHNICIEN) */
+.pp-tip{
+  margin: 16px 0 18px;
+  padding: 16px 16px;
+  border-radius: 16px;
+  background: #eaf4ff;
+  border: 1px solid rgba(15, 76, 129, 0.18);
+}
+
+.pp-tip-label{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0f4c81;
+  background: rgba(15, 76, 129, 0.08);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+/* CTA BOX */
+.pp-cta{
+  margin-top: 22px;
+  padding: 18px 18px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(15,76,129,0.10), rgba(0,176,155,0.14));
+  border: 1px solid rgba(15,76,129,0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pp-cta h3{
+  margin: 0 0 6px;
+  font-size: 18px;
+  color: #0f4c81;
+}
+
+.pp-cta p{
+  margin: 0 0 12px;
+  color: #1f1f1f;
+}
+
+.pp-cta-buttons{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pp-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #fff;
+  background: #00b09b;
+  border: 1px solid #00b09b;
+  transition: 0.25s;
+}
+
+.pp-btn:hover{
+  background: #fff;
+  color: #00b09b;
+}
+
+.pp-btn.outline{
+  background: #fff;
+  color: #0f4c81;
+  border: 1px solid rgba(15,76,129,0.20);
+}
+
+.pp-btn.outline:hover{
+  background: #0f4c81;
+  color: #fff;
+}
+
+/* SIDEBAR */
+.pp-sidebar{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pp-card{
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+  padding: 16px 16px;
+  box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+}
+
+.pp-card h3{
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #0f4c81;
+}
+
+.pp-card h3 span{
+  font-weight: 700;
+  font-size: 13px;
+  color: rgba(15,76,129,0.85);
+}
+
+.pp-side-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  border-radius: 999px;
+  background: #00b09b;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  border: 1px solid #00b09b;
+  margin-bottom: 10px;
+  transition: 0.25s;
+}
+
+.pp-side-btn:hover{
+  background: #fff;
+  color: #00b09b;
+}
+
+.pp-side-btn.outline{
+  background: #fff;
+  color: #0f4c81;
+  border: 1px solid rgba(15,76,129,0.22);
+}
+
+.pp-side-btn.outline:hover{
+  background: #0f4c81;
+  color: #fff;
+}
+
+.pp-mini{
+  margin-top: 10px;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* IMAGES DANS ARTICLE */
+.pp-figure{
+  margin: 16px 0 18px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+  border: 1px solid rgba(15,76,129,0.12);
+}
+
+.pp-figure img{
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.pp-caption{
+  padding: 10px 12px;
+  margin: 0;
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.pp-warning{
+  margin: 16px 0 18px;
+  padding: 16px 16px;
+  border-radius: 16px;
+  background: rgba(255, 59, 48, 0.08);
+  border: 1px solid rgba(255, 59, 48, 0.25);
+}
+
+.pp-warning-label{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #b00020;
+  background: rgba(255, 59, 48, 0.10);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+
+.pp-warning{
+  margin: 16px 0 18px;
+  padding: 16px 16px;
+  border-radius: 16px;
+  background: rgba(255, 59, 48, 0.08);
+  border: 1px solid rgba(255, 59, 48, 0.25);
+}
+
+.pp-warning-label{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #b00020;
+  background: rgba(255, 59, 48, 0.10);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.pp-disclaimer{
+  margin-top: 18px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.5;
+}
+
+

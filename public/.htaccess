@@ -10,3 +10,9 @@
 
 # # Sinon, tout passe par index.php
  RewriteRule ^ index.php [L]
+
+# Blog listing
+RewriteRule ^paroles-de-pro/?$ index.php?page=blog [L,QSA]
+
+# Blog article
+RewriteRule ^paroles-de-pro/([a-zA-Z0-9-]+)/?$ index.php?page=blog_show&slug=$1 [L,QSA]

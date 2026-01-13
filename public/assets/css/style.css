@@ -24,6 +24,7 @@
 @import url(./pages/paroles-de-pro.css);
 @import url(./pages/contact.css);
 @import url(./pages/devis.css);
+@import url(./pages/blog-articles.css);
 
 
 
@@ -32,6 +33,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+option {
+  color: #000;
 }
 
 /* FOND GÉNÉRAL */

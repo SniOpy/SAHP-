@@ -1,7 +1,9 @@
 /* =====================================================
    BLOG – PAROLE DE PRO (SAHP)
    ===================================================== */
-
+.pp-card p {
+  color : #000;
+}
 /* ============================
    SECTION GLOBALE
 ============================ */
@@ -9,7 +11,6 @@
 #parole-de-pro {
   background: linear-gradient(135deg, #5fbfa0, #4a8fcf);
   padding: 70px 6% 90px;
-  border-radius: 28px;
   margin-bottom: 80px;
 }
 
