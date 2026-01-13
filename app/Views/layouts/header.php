@@ -30,7 +30,7 @@
       <!-- DROPDOWN -->
       <div class="nav-dropdown">
 
-        <!-- TOGGLE (BOUTON, PAS SPAN) -->
+        <!-- TOGGLE  -->
         <a
           type="button"
           class="dropdown-toggle"
